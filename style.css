@@ -1,0 +1,258 @@
+.image-container {
+    position: relative; /* Container for stacking the images */
+    width: 1500px; /* Set the desired width */
+    height: auto; /* Set the desired height */
+  }
+  
+  .image-bottom {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%; /* Full width of container */
+    height: auto;
+  }
+  .image-2bottom {
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 100%; /* Full width of container */
+    height: auto;
+  }
+  .image-3bottom {
+    position: absolute;
+    top: 1800px;
+    left: 0;
+    width: 100%; /* Full width of container */
+    height: auto;
+  }
+  .overlay{
+    position: absolute;
+    width: 1500px; /* Set the desired width */
+    height: 2890px;
+    opacity: 0.83;
+  }
+  .heading{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 10px;
+    left: 600px;
+    font-size: 80px;
+    width: 600px;
+    height: 200px;
+    .ewert-regular {
+      font-family: "Ewert", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+  }
+  .image-top {
+    position:absolute;
+    top: 250px;
+    left: 550px;
+    width: 390px; /* Smaller width for the top image */
+    height: auto;
+    border: solid rgb(251, 220, 220);
+            border-width: 10px 10px;
+  }
+  .text1{
+    position: absolute;
+    top: 750px;
+    left: 640px;
+    color: white;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  .secondline{
+    font-family: "Handjet", sans-serif;
+  }
+  .underscore{
+    position: absolute;
+    top:30px;
+    right: 0px;
+    left: 0px;
+  }
+  .linkarijit
+  {
+    position: absolute;
+    top: 157px;
+    left: 260px;
+    color: white;
+    width: 35px;
+    height: auto;
+  }
+  .linkarijit:hover{
+    color: #09ed65;       
+    box-shadow: 0 0 10px #05ef53, 0 0 20px #05ef53, 0 0 30px #05ef53;
+  }
+
+  /* atif details */
+.atifpic{
+    position:absolute;
+    top: 1000px;
+    left: 550px;
+    width: 390px;
+    height: auto;
+    border: solid rgb(251, 220, 220);
+            border-width: 10px 10px;
+}
+.atiftext{
+  position: absolute;
+  top: 1500px;
+  left: 640px;
+  color: white;
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.atifdetail{
+  position: absolute;
+  top: 1640px;
+  left: 610px;
+  color: white;
+  font-size: 30px;
+  font-family: "Handjet", sans-serif;
+}
+.underscoretwo{
+  position: absolute;
+  color: white;
+  top: 1560px;
+  left: 630px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+.linkatif
+{
+  position: absolute;
+    top: 1670px;
+    left: 910px;
+    color: white;
+    width: 35px;
+    height: auto;
+}
+.linkatif:hover{
+  color: #09ed65;       
+  box-shadow: 0 0 10px #05ef53, 0 0 20px #05ef53, 0 0 30px #05ef53;
+}
+
+/* drake pic functions */
+.drakepic{
+  position: absolute;
+  width: 380px;
+  height: auto;
+  top: 1800px;
+  left: 550px;
+  border: solid rgb(251, 220, 220);
+            border-width: 10px 10px;
+}
+.draketext
+{
+  position: absolute;
+  top: 2350px;
+  left: 680px;
+  color: white;
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.underscorethree{
+  position: absolute;
+  color: white;
+  top:2410px;
+  left: 660px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+.drakedetail
+{
+  position: absolute;
+  top: 2480px;
+  left: 640px;
+  color: white;
+  font-size: 30px;
+  font-family: "Handjet", sans-serif;
+}
+.linkdrake
+{
+  position: absolute;
+    top: 2510px;
+    left: 880px;
+    color: white;
+    width: 35px;
+    height: auto;
+    transition: 0.3s;
+}
+.linkdrake:hover{
+  color: #09ed65;       
+  box-shadow: 0 0 10px #05ef53, 0 0 20px #05ef53, 0 0 30px #05ef53;
+}
+.color{
+  background-color: rgb(6, 124, 124);
+  position: absolute;
+  width: 1500px;
+  height: 300px;
+  top: 2590px;
+}
+.contact{
+  position: absolute;
+  color: white;
+  top: 15px;
+  left: 685px;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* about contact section */
+
+.insta{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 140px;
+    left: 100px;
+    transition: 0.3s;
+}
+.insta:hover{
+  color: pink;
+  box-shadow: 0 0 10px #f295a4, 0 0 20px #f295a4, 0 0 30px #f295a4;
+}
+.linkeid
+{
+  position: absolute;
+  width: 40px;
+  height: auto;
+  top: 140px;
+  left: 500px;
+  transition: 0.3s;
+}
+.linkeid:hover{
+  color: blue;
+  box-shadow: 0 0 5px #0000FF , 0 0 10px #0000FF , 0 0 20px #0000FF ;
+}
+.github{
+  position: absolute;
+  width: 40px;
+  height: auto;
+  top: 140px;
+  left: 900px;
+  transition: 0.3s;
+}
+.github:hover{
+  color: black;
+  box-shadow: 0 0 5px #000000 , 0 0 15px #000000 , 0 0 25px #000000 ;
+}
+.gmail{
+  position: absolute;
+  width: 40px;
+  height: auto;
+  top: 140px;
+  left: 1300px;
+  transition: 0.3s;
+}
+.gmail:hover{
+  color: lightgreen;
+  box-shadow: 0 0 5px #05ef53, 0 0 10px #05ef53, 0 0 15px #05ef53;
+}
+
+
+
+
+ 
